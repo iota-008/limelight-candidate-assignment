@@ -1,1 +1,0 @@
-# lighthouse-candidate-assignment
