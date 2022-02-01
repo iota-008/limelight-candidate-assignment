@@ -1,0 +1,26 @@
+As we can observe from the two json reports the updated site performs better.
+
+- The starting render time has been reduced by 1 second.
+- LCP is also reduced by 0.5 second.
+- speed index is reduced by 0.8 second, i.e content is more quickly visible to the users.
+- More bytes has been used in updated site because of the cache stored.
+- In the waterfall we can see that less request are made beacuse of the cache stored, hence faster
+
+First View Run Updated site:
+    first byte :    .376s
+    start render : 1.1s
+    LCP : 1.717s
+    speed index : 1.471s
+
+First View Run Original site:
+    first byte :    1.519s
+    start render : 2.200s
+    LCP : 2.231s
+    speed index : 2.245s
+
+
+Improvements:
+
+- the starting render time can be reduced by pre-rendering the pages.
+- storing the response of apis for faster performance on api calls.
+- with more cache being stored the performance will be improved.
