@@ -10,6 +10,3 @@ In this assignment I tried to accomplish:
 Pre rendering the pages
 improve cache hits
 caching api responses
-
-## feedbacks
-I was using this for first time, so it was overwhelming to get started.
